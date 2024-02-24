@@ -456,6 +456,11 @@ footer .container{
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width:500px){
+    footer .container{
+        flex-direction: column;
+    }
+}
 .copyWrite p{
     margin: 0;
     font-size: 14px;
